@@ -1,0 +1,98 @@
+
+@media screen and (max-width: 600px) {
+    body{
+        background-color: black;
+    }
+    
+    table{
+        background-color: blueviolet;
+    }
+    .side-menu ul li{
+        display: block;
+    }
+    .another{
+        float: none;
+        width: 85%;
+        margin: 0 auto;
+        overflow: hidden;
+        margin-bottom: 21px;
+    }
+    ul.nd-div{
+        display: none;
+        
+    }
+    .side-menu ul li:hover ul.nd-div {
+        display: block;
+        position: absolute;
+        top: 480px;
+        left: -100px;
+        /* margin-left: 240px;
+        margin-top: -32px; */
+        background-color: aqua;
+        /* padding-top: 0px; */
+        padding: 0;
+    }
+    #foot ul li, .member-social a{
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .g-service{
+        float: none;
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    table tr td{
+        display: block;
+    }
+    .another .g-service {
+        width: 100%;
+      float: none;
+      display: block;
+      background-color: #23a570;
+      ;
+    }
+    .prod{
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 300px !important;
+        
+      
+    }
+  }
+  @media screen and (max-width: 1024px) {
+body{
+    width: 100%;
+    max-width: 1024px;
+    background-color: aquamarine;
+
+}
+.prod{
+    width: 234px;
+    overflow: hidden;
+    height: 349px;
+
+}
+.prod{
+    font-size: 15px;
+}
+
+.prod img{
+    width: 100%;
+    overflow: hidden;
+    
+
+}
+.fot-r, .my-p, .customar-info, .com-info{
+    width: 300px;
+    display: flex;
+    margin: 0px;
+    padding: 0;
+    margin-left: 41px;
+    overflow: hidden;
+}
+
+  }
+

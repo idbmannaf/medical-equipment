@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration | Medical Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha38450oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <div class="top-menu">
+            <div class="addr">
+                <i class="fas fa-envelope"></i><a href=mailto:mannaf@gmail.com>mannaf@gmail.com</a> &nbsp;
+                <i class="fas fa-phone-volume"></i> <a href="tel:+8801744508287">01744508287</a>
+            </div>
+            <div class="user-log">
+                <a href="login.html">Login</a> |
+                <a href="register.html">Register</a>
+            </div>
+        </div>
+        <!-- top-Menu-End -->
+        <!-- Main Menu Start -->
+        <div class="main-menu">
+            <div class="logo"><a href="index.html"><img src="img/LOGO-2.png" width="300px" id="logo" alt=""></a></div>
+            <ul>
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="store.html">Store</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <li id="se"><input type="search" placeholder="Search"></li>
+                <li> <a href="#"><i class="fas fa-user-alt"></i></a><a href="store.html"><i class="fas fa-cart-plus"></i></a></li>
+            </ul>
+
+        </div>
+        <hr style="width: 100%; height: 1px; background-color: #58bf98;">
+    </header>
+    <h1 class="reg1">Registration Form</h1>
+    <hr class="hori">
+    <div class="reg">
+        <div class="reg-form">
+            <form class="fr" action="">
+                <div class="us">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" required placeholder="Username" id="inp">
+                </div>
+                <div class="us">
+                    <label for="fname">First name</label>
+                    <input type="text" name="fname" placeholder="First Name" id="inp">
+                </div>
+                <div class="us">
+                    <label for="lname">Last name</label>
+                    <input type="text" name="lname" placeholder="Last name" id="inp">
+                </div>
+                <div class="us">
+                    <label for="email">Email &nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="email" name="email" required placeholder="example@example.com" id="inp">
+                </div>
+                <div class="us">
+                    <label for="Password">Password</label>
+                    <input type="password" name="Password" required placeholder="Password" id="inp">
+                </div>
+                <div class="us">
+                    <label id="gnlab" for="">Gender </label>
+                    <!-- <label for="m">Male</label> -->
+                    <input type="radio" name="m" required id="gen1">Male
+                    <!-- <label for="f">Female</label> -->
+                    <input type="radio" name="m" required id="gen"> Female
+                </div>
+                <div class="us">
+                    <label for="country">Dob Years</label>
+                    <select name="" id="">
+                        <label for=""></label>
+                        <script>
+                            for (let index = 1991; index < 2025; index++) {
+                                console.log(index);
+
+                                document.write('<option value="' + index + '" selected >' + index + '</option>');
+                            }
+                        </script>
+
+                    </select>
+
+
+                </div>
+                <div class="us">
+                    <label for="country">Country</label>
+                    <select name="" id="">
+                        <option value="select" selected disabled>Select</option>
+                        <option value="Bangladesh">Bangladesh</option>
+                        <option value="Australia">Australia</option>
+                        <option value="United State">United State</option>
+                        <option value="United Kingdom">United Kingdom</option>
+                        <option value="Austia">Austia</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Other">Other</option>
+
+                    </select>
+                </div>
+                <div class="tram">
+                    <label for=""></label>
+                    <input type="checkbox" name="check" required id="ceck">
+                    Agree all of our terms and condition?
+                </div>
+                <input type="submit" value="Register" class="btn" id="button"><br>
+
+
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div id="foot">
+            <div class="fot-r">
+                <ul>
+                    <li><img src="img/LOGO-2.png" width="300px" id="logo2" alt=""></li>
+                    <li>
+                        <address> <i class="fas fa-map-marker-alt"></i> 218/4 (5th floor), Begum Rokeya Sharani,
+                            West Kafrul, Dhaka 1207</address>
+                    </li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:idbmannaf@gmail.com">idbmannaf@gmail.com</a>
+                    </li>
+                    <li><i class="fas fa-phone"></i> <a href="tel:+8801744508287">01744508287</a></li>
+                    <li>
+                        <div class="member-social">
+                            <a href=""><i class="fab fa-facebook-square"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="my-p">
+                <ul>
+                    <li>My pages</li>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">Order & Checkout</a></li>
+                    <li><a href="#">All Cart</a></li>
+                    <li><a href="#">Best Offers</a></li>
+                    <li><a href="#">Track Order</a></li>
+
+                </ul>
+            </div>
+            <div class="customar-info">
+                <ul>
+                    <li>Customer Info</li>
+                    <li><a href="#">Track Order</a></li>
+                    <li><a href="#">Returns & Exchanges</a></li>
+                    <li><a href="#">How To Buy</a></li>
+                    <li><a href="#">Best Offer</a></li>
+                </ul>
+            </div>
+            <div class="com-info">
+                <ul>
+                    <li>Company Info</li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr style="color: white;border: 1px solid white; width: 1100px;">
+        <td colspan="3">
+            <p class="copy">Copyright by &copy; <a style="color: gold;" href="">Mannaf</a> | Design by <a
+                    style="color: gold;" href="">Mannaf</a></p>
+        </td>
+
+    </footer>
+</body>
+
+</html>

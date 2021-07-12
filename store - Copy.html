@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Medical Store leading platform for all kinds of medical products, where all goes to shop for better care with lower cost.">
+    <meta name="keywords" content="Dental Equipment, Vital Signs Monitor,  ECG Machine, Medical Examination Gloves">
+    <link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha38450oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <title>Medical Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="top-menu">
+            <div class="addr">
+                <i class="fas fa-envelope"></i><a href=mailto:mannaf@gmail.com>mannaf@gmail.com</a> &nbsp;
+                <i class="fas fa-phone-volume"></i> <a href="tel:+8801744508287">01744508287</a>
+            </div>
+            <div class="user-log">
+                <a href="login.html">Login</a> |
+                <a href="register.html">Register</a>
+            </div>
+        </div>
+        <!-- top-Menu-End -->
+        <!-- Main Menu Start -->
+        <div class="main-menu">
+            <div class="logo"><a href="#"><img src="img/LOGO-2.png" width="300px" id="logo" alt=""></a></div>
+            <ul>
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="store.html">Store</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <li id="se"><input type="search" placeholder="Search"></li>
+                <li><a href="store.html"><img src="img/1 (2).png" alt="Shoping" width="30px" id="shop"></a></li>
+
+            </ul>
+
+        </div>
+
+    </header>
+    <!-- article start -->
+    
+   <div class="slide">
+        <!-- <div class="head-img">
+            <img src="img/j.png" id="head-i" alt="">
+        </div> -->
+
+        <div class="banner">
+            <img id="imgContainer" src="img/im/slide (2).png" alt="">
+        </div>
+        <script>
+            var currentImage = 1;
+            var totalimages = 7;
+            var changeImage = function () {
+                currentImage++;
+                if (currentImage == 8) {
+                    currentImage = 1;
+                }
+                document.getElementById("imgContainer").src = "img/im/slide (" + currentImage + ").png";
+            }
+            setInterval(changeImage, 2000);
+        </script>
+
+    </div> 
+    <div class="welcome">
+        <h2 class="wel">Welcome To Our Store</h2>
+        
+    </div>
+    <div class="member-social2">
+        <a href=""><i class="fab fa-facebook-square"></i></a> <br>
+        <a href=""><i class="fab fa-twitter"></i></a><br>
+        <a href=""><i class="fab fa-linkedin-in"></i></a><br>
+        <a href=""><i class="fab fa-instagram"></i></a>
+    </div>
+    <!-- Latest product Start -->
+    <div class="main-container">
+    <div class="L-service">
+        <table style="width:100%">
+            <tr>
+                <th colspan="4">
+                    <h1> Our Latest Product</h1>
+                </th>
+
+            </tr>
+            <tr>
+
+
+                <td>
+                    <div class="prod">
+                        <div class="pro-img">
+                            <a href="product/ECG-Machine.html"><img src="img/ECG Machine.jpeg" id="product-img"
+                                    alt=""></a>
+                        </div>
+                        <h2><a href="product/ECG-Machine.html">ECG Machine</a></h2>
+                        <a class="model-px" href="#">Model: MSB-ECG-S-01</a>
+                        <p><b>price:</b> <span class="price-color">$300</span></p>
+                        <hr width="100%">
+                        <button class="btn"><i class="fas fa-cart-plus"></i> Add to Card</button>
+                        <a class="more-d" href="product/ECG-Machine.html"><i class="fas fa-list-ul"></i> More
+                            Details</a>
+                    </div>
+                </td>
+                <td>
+                    <div class="prod">
+                        <div class="pro-img">
+                            <a href="product/ECG-Machine.html"><img src="img/ECG Machine.jpeg" id="product-img"
+                                    alt=""></a>
+                        </div>
+                        <h2><a href="product/ECG-Machine.html">ECG Machine</a></h2>
+                        <a class="model-px" href="#">Model: MSB-ECG-S-01</a>
+                        <p><b>price:</b> <span class="price-color">$300</span></p>
+                        <hr width="100%">
+                        <button class="btn"><i class="fas fa-cart-plus"></i> Add to Card</button>
+                        <a class="more-d" href="product/ECG-Machine.html"><i class="fas fa-list-ul"></i> More
+                            Details</a>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="prod">
+                        <a href="product/Vital-Signs-Monitor.html"> <img src="product/img/Vital (2).jpeg"
+                                id="product-img" alt=""></a>
+                        <h2><a href="product/Vital-Signs-Monitor.html">Vital Signs Monitor</a></h2>
+                        <a class="model-px" href="product/Vital-Signs-Monitor.html">CONTEC</a>
+                        <p><b>price:</b> <span class="price-color">$60</span></p>
+                        <hr width="100%">
+                        <button class="btn"><i class="fas fa-cart-plus"></i> Add to Card</button>
+                        <a class="more-d" href="product/Vital-Signs-Monitor.html"><i class="fas fa-list-ul"></i> More
+                            Details</a>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="prod">
+                        <img src="img/Hand Guard 9-Inch Gloves.jpeg" id="product-img" alt="">
+                        <h2><a href="#">Hand Guard 9-Inch Gloves</a></h2>
+                        <a class="model-px" href="#">Model: MSB-HG9IG-04</a>
+                        <p><b>price:</b> <span class="price-color">$3</span></p>
+                        <hr width="100%">
+                        <button class="btn"><i class="fas fa-cart-plus"></i> Add to Card</button>
+                        <a class="more-d" href="#"><i class="fas fa-list-ul"></i> More Details</a>
+                    </div>
+                </td>
+
+
+            </tr>
+            <tr>
+                <td>
+                    <div class="prod">
+                        <img src="img/PVC Medical Vinyl Examination.jpeg" id="product-img" alt="">
+                        <h2><a href="#">Medical Examination Gloves</a> </h2>
+                        <a class="model-px" href="#">PVC</a>
+                        <p><b>price:</b> <span class="price-color">$12</span></p>
+                        <hr width="100%">
+                        <button class="btn"><i class="fas fa-cart-plus"></i> Add to Card</button>
+                        <a class="more-d" href="#"><i class="fas fa-list-ul"></i> More Details</a>
+                    </div>
+                </td>
+                <td>
+                    <div class="prod">
+                        <div class="pro-img">
+                            <a href="product/ECG-Machine.html"><img src="img/ECG Machine.jpeg" id="product-img"
+                                    alt=""></a>
+                        </div>
+                        <h2><a href="product/ECG-Machine.html">ECG Machine</a></h2>
+                        <a class="model-px" href="#">Model: MSB-ECG-S-01</a>
+                        <p><b>price:</b> <span class="price-color">$300</span></p>
+                        <hr width="100%">
+                        <button class="btn"><i class="fas fa-cart-plus"></i> Add to Card</button>
+                        <a class="more-d" href="product/ECG-Machine.html"><i class="fas fa-list-ul"></i> More
+                            Details</a>
+                    </div>
+                </td>
+                <td>
+                    <div class="prod">
+                        <img src="img/3M Disposable Coverall PPE.jpeg" id="product-img" alt="">
+                        <h2><a href="#">3M Disposable Coverall PPE</a></h2>
+                        <a class="model-px" href="#">3M</a>
+                        <p><b>price:</b> <span class="price-color">$18</span></p>
+                        <hr width="100%">
+                        <button class="btn"><i class="fas fa-cart-plus"></i> Add to Card</button>
+                        <a class="more-d" href="#"><i class="fas fa-list-ul"></i> More Details</a>
+                    </div>
+                </td>
+
+                <td>
+                    <div class="prod">
+                        <img src="img/N95 Air Mask.jpeg" id="product-img" alt="">
+                        <h2><a href="#">N95 Air Mask</a></h2>
+                        <a class="model-px" href="#">3M</a>
+                        <p><b>price:</b> <span class="price-color">$9</span></p>
+                        <hr width="100%">
+                        <button class="btn"><i class="fas fa-cart-plus"></i> Add to Card</button>
+                        <a class="more-d" href="#"><i class="fas fa-list-ul"></i> More Details</a>
+                    </div>
+                </td>
+
+
+            </tr>
+
+
+            <tr>
+    
+    
+                <td>
+                    <div class="prod">
+                        <img src="img/desfibrilador_cardiomax_1.jpeg" id="product-img" alt="">
+                        <h2><a href="">Desfibrilador Cardiomax</a> </h2>
+                        <a class="model-px" href="#">Model: MSB-DC-08</a>
+                        <p><b>price:</b> <span class="price-color">$5668</span></p>
+                        <hr width="100%">
+                        <button class="btn"><i class="fas fa-cart-plus"></i> Add to Card</button>
+                        <a class="more-d" href="#"><i class="fas fa-list-ul"></i> More Details</a>
+                    </div>
+                </td>
+                <td>
+                    <div class="prod">
+                        <img src="img/desfibrilador_cardiomax_1.jpeg" id="product-img" alt="">
+                        <h2><a href="">Desfibrilador Cardiomax</a> </h2>
+                        <a class="model-px" href="#">Model: MSB-DC-08</a>
+                        <p><b>price:</b> <span class="price-color">$5668</span></p>
+                        <hr width="100%">
+                        <button class="btn"><i class="fas fa-cart-plus"></i> Add to Card</button>
+                        <a class="more-d" href="#"><i class="fas fa-list-ul"></i> More Details</a>
+                    </div>
+                </td>
+    
+                <td>
+                    <div class="prod">
+                        <img src="img/desfibrilador_cardiomax_1.jpeg" id="product-img" alt="">
+                        <h2><a href="">Desfibrilador Cardiomax</a> </h2>
+                        <a class="model-px" href="#">Model: MSB-DC-08</a>
+                        <p><b>price:</b> <span class="price-color">$5668</span></p>
+                        <hr width="100%">
+                        <button class="btn"><i class="fas fa-cart-plus"></i> Add to Card</button>
+                        <a class="more-d" href="#"><i class="fas fa-list-ul"></i> More Details</a>
+                    </div>
+                </td>
+    
+                <td>
+                    <div class="prod">
+                        <img src="img/ETT Machine.jpeg" id="product-img" alt="">
+                        <h2><a href="">ETT Machine</a> </h2>
+                        <a class="model-px" href="#">Model: MSB-ST-Win</a>
+                        <p><b>price:</b> <span class="price-color">$6495</span></p>
+                        <hr width="100%">
+                        <button class="btn"><i class="fas fa-cart-plus"></i> Add to Card</button>
+                        <a class="more-d" href="#"><i class="fas fa-list-ul"></i> More Details</a>
+                    </div>
+                </td>
+    
+    
+            </tr>
+            <tr>
+                <td>
+                    <div class="prod">
+                        <img src="img/Incentive Spirometer Peak Flow Meter.jpeg" id="product-img" alt="">
+                        <h2><a href="#"> Spirometer Peak Flow Meter</a></h2>
+                        <a class="model-px" href="#">Medline Store</a>
+                        <p><b>price:</b> <span class="price-color">$14</span></p>
+                        <hr width="100%">
+                        <button class="btn"><i class="fas fa-cart-plus"></i> Add to Card</button>
+                        <a class="more-d" href="#"><i class="fas fa-list-ul"></i> More Details</a>
+                    </div>
+                </td>
+                <td>
+                    <div class="prod">
+                        <img src="img/Blood Pressure Machine.jpeg" id="product-img" alt="">
+                        <h2><a href="#">Blood Pressure Machine</a> </h2>
+                        <a class="model-px" href="#">Model: MSB-NBP-01</a>
+                        <p><b>price:</b> <span class="price-color">$24</span></p>
+                        <hr width="100%">
+                        <button class="btn"><i class="fas fa-cart-plus"></i> Add to Card</button>
+                        <a class="more-d" href="#"><i class="fas fa-list-ul"></i> More Details</a>
+                    </div>
+                </td>
+                <td>
+                    <div class="prod">
+                        <img src="img/Blood Pressure Monitor.jpeg" id="product-img" alt="">
+                        <h2><a href="#">Blood Pressure Monitor</a></h2>
+                        <a class="model-px" href="#">OMRON HEM-7120</a>
+                        <p><b>price:</b> <span class="price-color">$36</span></p>
+                        <hr width="100%">
+                        <button class="btn"><i class="fas fa-cart-plus"></i> Add to Card</button>
+                        <a class="more-d" href="#"><i class="fas fa-list-ul"></i> More Details</a>
+                    </div>
+                </td>
+    
+                <td>
+                    <div class="prod">
+                        <img src="img/Hemodynamic Monitoring.jpeg" id="product-img" alt="">
+                        <h2><a href="#">Hemodynamic Monitoring</a></h2>
+                        <a class="model-px" href="#">USCOM </a>
+                        <p><b>price:</b> <span class="price-color">$37790</span></p>
+                        <hr width="100%">
+                        <button class="btn"><i class="fas fa-cart-plus"></i> Add to Card</button>
+                        <a class="more-d" href="#"><i class="fas fa-list-ul"></i> More Details</a>
+                    </div>
+                </td>
+    
+    
+            </tr>
+        </table>
+    </div>
+   
+
+    </article>
+    
+        <footer>
+            <div id="foot">
+                <div class="fot-r">
+                    <ul>
+                        <li><img src="img/LOGO-2.png" width="300px" id="logo2" alt=""></li>
+                        <li>
+                            <address> <i class="fas fa-map-marker-alt"></i> 218/4 (5th floor), Begum Rokeya Sharani,
+                                West Kafrul, Dhaka 1207</address>
+                        </li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:idbmannaf@gmail.com">idbmannaf@gmail.com</a>
+                        </li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+8801744508287">01744508287</a></li>
+                        <li>
+                            <div class="member-social">
+                                <a href=""><i class="fab fa-facebook-square"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="my-p">
+                    <ul>
+                        <li>My pages</li>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Order & Checkout</a></li>
+                        <li><a href="#">All Cart</a></li>
+                        <li><a href="#">Best Offers</a></li>
+                        <li><a href="#">Track Order</a></li>
+
+                    </ul>
+                </div>
+                <div class="customar-info">
+                    <ul>
+                        <li>Customer Info</li>
+                        <li><a href="#">Track Order</a></li>
+                        <li><a href="#">Returns & Exchanges</a></li>
+                        <li><a href="#">How To Buy</a></li>
+                        <li><a href="#">Best Offer</a></li>
+                    </ul>
+                </div>
+                <div class="com-info">
+                    <ul>
+                        <li>Company Info</li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr style="color: white;border: 1px solid white; width: 1100px;">
+            <td colspan="3">
+                <p class="copy">Copyright by &copy; <a style="color: gold;" href="">Mannaf</a> | Design by <a
+                        style="color: gold;" href="">Mannaf</a></p>
+            </td>
+
+        </footer>
+</body>
+
+</html>

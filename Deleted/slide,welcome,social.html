@@ -1,0 +1,32 @@
+<div class="slide">
+        <!-- <div class="head-img">
+            <img src="img/j.png" id="head-i" alt="">
+        </div> -->
+
+        <div class="banner">
+            <img id="imgContainer" src="img/im/slide (2).png" alt="">
+        </div>
+        <script>
+            var currentImage = 1;
+            var totalimages = 7;
+            var changeImage = function () {
+                currentImage++;
+                if (currentImage == 8) {
+                    currentImage = 1;
+                }
+                document.getElementById("imgContainer").src = "img/im/slide (" + currentImage + ").png";
+            }
+            setInterval(changeImage, 2000);
+        </script>
+
+    </div>
+    <div class="welcome">
+        <h2 class="wel">Welcome To Our Store</h2>
+
+    </div>
+    <div class="member-social2">
+        <a href=""><i class="fab fa-facebook-square"></i></a> <br>
+        <a href=""><i class="fab fa-twitter"></i></a><br>
+        <a href=""><i class="fab fa-linkedin-in"></i></a><br>
+        <a href=""><i class="fab fa-instagram"></i></a>
+    </div>
